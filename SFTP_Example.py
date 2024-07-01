@@ -7,9 +7,9 @@ from io import StringIO
 print('starting test...')
 
 # FTP Server parameters
-USERNAME = "pentestuser"
-PORT = 24
-SERVER = '193.29.77.246'
+USERNAME = "<your-sftp-user>"
+PORT = 22
+SERVER = '<your sftp server name or IP>'
 #PRIVATE_KEY_FILE = r'your_key.pem' <use for debugging/test>
 
 # Access key-vault and get secret (private key)
